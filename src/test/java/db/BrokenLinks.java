@@ -35,8 +35,10 @@ public class BrokenLinks {
 			//System.out.println("it will give the exact amount of links available ...");
 			verifyLinkActive(url);
 			
-			JavascriptExecutor js = (JavascriptExecutor)driver;
-			js.executeScript("alert('hello world');");
+//			JavascriptExecutor js = (JavascriptExecutor)driver;
+//			js.executeScript("alert('hello world');");
+//			JavascriptExecutor js = (JavascriptExecutor)driver;
+//			js.executeScript("alert('hello world');");
 			Thread.sleep(5);
 		}
 	}
