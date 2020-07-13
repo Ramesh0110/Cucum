@@ -37,8 +37,13 @@ public class BrokenLinks {
 			
 //			JavascriptExecutor js = (JavascriptExecutor)driver;
 //			js.executeScript("alert('hello world');");
-//			JavascriptExecutor js = (JavascriptExecutor)driver;
-//			js.executeScript("alert('hello world');");
+
+			
+			
+			System.out.println("git is fun");
+
+			System.out.println("git is fun");
+			
 			Thread.sleep(5);
 		}
 	}
