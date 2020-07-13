@@ -32,11 +32,11 @@ public class BrokenLinks {
 
 			String url = ele.getAttribute("href");
 			System.out.println(url);
-			System.out.println("it will give the exact amount of links available ...");
+			//System.out.println("it will give the exact amount of links available ...");
 			verifyLinkActive(url);
 			
-//			JavascriptExecutor js = (JavascriptExecutor)driver;
-//			js.executeScript("alert('hello world');");
+			JavascriptExecutor js = (JavascriptExecutor)driver;
+			js.executeScript("alert('hello world');");
 			Thread.sleep(5);
 		}
 	}
